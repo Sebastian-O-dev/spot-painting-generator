@@ -4,7 +4,7 @@ import random
 
 rgb_colors = []
 
-colors = colorgram.extract("image.jpg", 30)
+colors = colorgram.extract("image.jpg", 30) # "imaage.jpg" is an example for name here, the file should be localted in project folder
 
 for color in colors:
         rgb_colors.append(color.rgb[:])
